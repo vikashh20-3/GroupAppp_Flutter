@@ -1,6 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:groupie/helper/helper_functions.dart';
+import 'package:groupie/pages/login.dart';
 import 'package:groupie/shared/constants.dart';
 
 void main() async {
@@ -19,11 +21,30 @@ void main() async {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
   @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    getUserLoggedInStatus();
+  }
+
+  getUserLoggedInStatus() async {
+    await helperFunctions();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: LoginPage(),
+    );
   }
 }

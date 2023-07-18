@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "458310306952",
+    "project_id": "chatappflutter-a7d38",
+    "storage_bucket": "chatappflutter-a7d38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458310306952:android:8f881e2aa5d2e9bddc233d",
+        "android_client_info": {
+          "package_name": "com.example.groupie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458310306952-m857rv1bp3ujbc3rb4a9mmbhjffsa584.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMY9Ll7NGpRPmRseUT4KKvm2BT3ccdKEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458310306952-m857rv1bp3ujbc3rb4a9mmbhjffsa584.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
